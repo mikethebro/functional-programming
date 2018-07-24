@@ -2,9 +2,8 @@
 import os
 import sys
 
-# Complete the sockMerchant function below.
 def sockMerchant(n, ar):
-    colors = {} # {"1": 3, "2": 3, "3": 1}
+    colors = {}
     for a in ar:
         if a in colors:
             colors[a] = colors[a] + 1
